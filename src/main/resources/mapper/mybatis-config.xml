@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE configuration 
+    PUBLIC "-//mybatis.org//DTD SQL Map Config 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-config.dtd"> 
+<configuration> 
+	<!-- http://www.mybatis.org/mybatis-3/configuration.html#settings 참고 --> 
+	<settings> 
+		<setting name="callSettersOnNulls" value="true" /> 
+		<setting name="jdbcTypeForNull" value="NULL" /> 
+	</settings> 
+	<typeAliases> 
+		
+		<!-- 두가지 방법 패키째로 등록 or 타입 클래스 넣기
+		 <package name="kr.ck.springboot.mybatis" />
+		<typeAlias alias="Tag"  type="kr.ck.springboot.mybatis.**vo"/> 
+		-->
+	</typeAliases> 
+</configuration>
+ 
